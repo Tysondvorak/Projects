@@ -15,6 +15,14 @@ const routes: Routes = [
   {
     path: 'hw1prob9',
     loadChildren: () => import('./hw1_9/hw1prob9/hw1prob9.module').then( m => m.Hw1prob9PageModule)
+  },
+  {
+    path: 'hw1prob10',
+    loadChildren: () => import('./hw1_10/hw1prob10/hw1prob10.module').then( m => m.Hw1prob10PageModule)
+  },
+  {
+    path: 'hw1prob12',
+    loadChildren: () => import('./hw1_12/hw1prob12/hw1prob12.module').then( m => m.Hw1prob12PageModule)
   }
 ];
 
